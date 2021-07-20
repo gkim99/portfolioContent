@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <h1>Grace Kim</h1>
+    <div>
+    <img src="panda.jpg" alt="panda picture" width="150" height="150">
+    </div>
+    <div>
+        <a href="https://github.com/gkim99">my github</a>
+        <a href="https://www.linkedin.com/in/grace-yeon-kim/">my linkedin</a>
+        <a href="mailto:gracekim092@gmail.com">my email</a>
+    </div>
+    <h3>About Me</h3>
+    <p>I was born and raised in Los Angeles, CA. I recently graduated from UCSD with a bachelor's in biology. I am aspiring to become a software engineer once completing the Coding Dojo bootcamp. 
+        I do not have any programming projects yet, but hopefully, I will have a lot by the time I am done with the bootcamp.
+        The table below lists a few of my hobbies, favorite shows, and favorite sports I like to play.
+    </p>
+    <table>
+        <tr>
+            <th>Hobbies</th>
+            <th>Favorite Shows</th>
+            <th>Favorite Sports</th>
+        </tr>
+        <tr>
+            <td>Cooking</td>
+            <td>Manifest</td>
+            <td>Tennis</td>
+        </tr>
+        <tr>
+            <td>Hiking</td>
+            <td>You</td>
+            <td>Badminton</td>
+        </tr>
+    </table>
+    <form action="/process" method="post">
+        <h3>Contact Me</h3>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <p>Message:</p>
+            <textarea name="message"  cols="30" rows="3">
+            </textarea>
+        </div>
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
